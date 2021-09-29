@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Download Files
+        </title>
+    </head>
+    <body>
+        <div style = "text-align: center;">
+            <h1 style = "margin-bottom: 0;">Download Stuff</h1>
+            <h3>(Select Files for upload)</h3>
+            <form method = 'POST' action = "/upload" enctype="multipart/form-data">
+                <div>
+                    <input type = "text" name = "folder_name" />
+                    <input type = "file" name = "target_file" multiple />
+                </div>
+                <br>
+                <div>
+                    <input type = "submit" name = "button_files" value = "Upload">
+                </div>
+            </form>
+            <br>
+            <h2><a href = "/files">Select Files for download</a></h2>
+        </div>
+        
+        
+        
+        
+    </body>
+    <script src = "https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</html>
