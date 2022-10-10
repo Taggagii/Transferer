@@ -68,6 +68,11 @@ app.post("/upload", (req, res) => {
 // });
 
 
+// this is the code that works I think
+// const server = app.listen(PORT, YOURIPADDRESSHERE, (() => {
+//         console.log(`Running on http://localhost:${PORT}`);
+// });
+
 const server = app.listen(PORT, () => {
         console.log(`Running on http://localhost:${PORT}`);
 });
